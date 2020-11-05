@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fijiisland/Documents/Projects/Sublime/C/JsonParser/leptjson.c
+leptjson.h
+/Users/fijiisland/Documents/Projects/Sublime/C/JsonParser/leptjson.h
+assert.h
+-
+stdlib.h
+-
+errno.h
+-
+math.h
+-
+
+/Users/fijiisland/Documents/Projects/Sublime/C/JsonParser/leptjson.h
+assert.h
+-
+stdlib.h
+-
+
+/Users/fijiisland/Documents/Projects/Sublime/C/JsonParser/test.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+leptjson.h
+/Users/fijiisland/Documents/Projects/Sublime/C/JsonParser/leptjson.h
+

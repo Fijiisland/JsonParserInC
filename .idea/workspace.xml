@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="JsonParser" targetName="JsonParse" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93db9394-c08a-47ae-b94b-af65b4def7b6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="dm2j8tb3" />
+  </component>
+  <component name="ProjectId" id="1jgTB4AADEki94hJjmudQVEKYcY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager">
+    <configuration name="JsonParse" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JsonParser" TARGET_NAME="JsonParse" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JsonParser" RUN_TARGET_NAME="JsonParse">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93db9394-c08a-47ae-b94b-af65b4def7b6" name="Default Changelist" comment="" />
+      <created>1604224596308</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604224596308</updated>
+      <workItem from="1604224598420" duration="5050000" />
+      <workItem from="1604321336882" duration="9000" />
+      <workItem from="1604322629210" duration="92000" />
+      <workItem from="1604364051691" duration="3576000" />
+      <workItem from="1604580719162" duration="62000" />
+      <workItem from="1604580803455" duration="2524000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="300" y="206" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604224830441">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state x="300" y="206" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.978@0.23.1680.978" timestamp="1604224830441" />
+    <state width="1226" height="164" key="GridCell.Tab.0.bottom" timestamp="1604367803532">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state width="1226" height="164" key="GridCell.Tab.0.bottom/0.23.1680.978@0.23.1680.978" timestamp="1604367803532" />
+    <state width="1226" height="164" key="GridCell.Tab.0.center" timestamp="1604367803531">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state width="1226" height="164" key="GridCell.Tab.0.center/0.23.1680.978@0.23.1680.978" timestamp="1604367803531" />
+    <state width="1226" height="164" key="GridCell.Tab.0.left" timestamp="1604367803531">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state width="1226" height="164" key="GridCell.Tab.0.left/0.23.1680.978@0.23.1680.978" timestamp="1604367803531" />
+    <state width="1226" height="164" key="GridCell.Tab.0.right" timestamp="1604367803532">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state width="1226" height="164" key="GridCell.Tab.0.right/0.23.1680.978@0.23.1680.978" timestamp="1604367803532" />
+    <state x="683" y="101" key="SettingsEditor" timestamp="1604580781078">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state x="683" y="101" key="SettingsEditor/0.23.1680.978@0.23.1680.978" timestamp="1604580781078" />
+    <state x="510" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1604583188965">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state x="510" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1680.978@0.23.1680.978" timestamp="1604583188965" />
+  </component>
+</project>

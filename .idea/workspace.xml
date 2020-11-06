@@ -52,6 +52,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,6 +72,8 @@
       <workItem from="1604364051691" duration="3576000" />
       <workItem from="1604580719162" duration="62000" />
       <workItem from="1604580803455" duration="2524000" />
+      <workItem from="1604584024195" duration="100000" />
+      <workItem from="1604665533370" duration="2958000" />
     </task>
     <servers />
   </component>
@@ -75,29 +82,29 @@
       <screen x="0" y="23" width="1680" height="978" />
     </state>
     <state x="300" y="206" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.978@0.23.1680.978" timestamp="1604224830441" />
-    <state width="1226" height="164" key="GridCell.Tab.0.bottom" timestamp="1604367803532">
+    <state width="1226" height="164" key="GridCell.Tab.0.bottom" timestamp="1604668760580">
       <screen x="0" y="23" width="1680" height="978" />
     </state>
-    <state width="1226" height="164" key="GridCell.Tab.0.bottom/0.23.1680.978@0.23.1680.978" timestamp="1604367803532" />
-    <state width="1226" height="164" key="GridCell.Tab.0.center" timestamp="1604367803531">
+    <state width="1226" height="164" key="GridCell.Tab.0.bottom/0.23.1680.978@0.23.1680.978" timestamp="1604668760580" />
+    <state width="1226" height="164" key="GridCell.Tab.0.center" timestamp="1604668760579">
       <screen x="0" y="23" width="1680" height="978" />
     </state>
-    <state width="1226" height="164" key="GridCell.Tab.0.center/0.23.1680.978@0.23.1680.978" timestamp="1604367803531" />
-    <state width="1226" height="164" key="GridCell.Tab.0.left" timestamp="1604367803531">
+    <state width="1226" height="164" key="GridCell.Tab.0.center/0.23.1680.978@0.23.1680.978" timestamp="1604668760579" />
+    <state width="1226" height="164" key="GridCell.Tab.0.left" timestamp="1604668760578">
       <screen x="0" y="23" width="1680" height="978" />
     </state>
-    <state width="1226" height="164" key="GridCell.Tab.0.left/0.23.1680.978@0.23.1680.978" timestamp="1604367803531" />
-    <state width="1226" height="164" key="GridCell.Tab.0.right" timestamp="1604367803532">
+    <state width="1226" height="164" key="GridCell.Tab.0.left/0.23.1680.978@0.23.1680.978" timestamp="1604668760578" />
+    <state width="1226" height="164" key="GridCell.Tab.0.right" timestamp="1604668760579">
       <screen x="0" y="23" width="1680" height="978" />
     </state>
-    <state width="1226" height="164" key="GridCell.Tab.0.right/0.23.1680.978@0.23.1680.978" timestamp="1604367803532" />
+    <state width="1226" height="164" key="GridCell.Tab.0.right/0.23.1680.978@0.23.1680.978" timestamp="1604668760579" />
     <state x="683" y="101" key="SettingsEditor" timestamp="1604580781078">
       <screen x="0" y="23" width="1680" height="978" />
     </state>
     <state x="683" y="101" key="SettingsEditor/0.23.1680.978@0.23.1680.978" timestamp="1604580781078" />
-    <state x="510" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1604583188965">
+    <state x="510" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1604668241997">
       <screen x="0" y="23" width="1680" height="978" />
     </state>
-    <state x="510" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1680.978@0.23.1680.978" timestamp="1604583188965" />
+    <state x="510" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1680.978@0.23.1680.978" timestamp="1604668241997" />
   </component>
 </project>

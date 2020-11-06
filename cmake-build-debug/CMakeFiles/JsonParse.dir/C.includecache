@@ -24,13 +24,3 @@ assert.h
 stdlib.h
 -
 
-/Users/fijiisland/Documents/Projects/Sublime/C/JsonParser/test.c
-stdio.h
--
-stdlib.h
--
-string.h
--
-leptjson.h
-/Users/fijiisland/Documents/Projects/Sublime/C/JsonParser/leptjson.h
-

@@ -3,6 +3,7 @@
 #include <stdlib.h>  /* NULL, strtod() */
 #include <errno.h>   /* errno, ERANGE */
 #include <math.h>    /* HUGE_VAL */
+#include <memory.h>
 
 #define EXPECT(c, ch) do { assert(*c->json == (ch)); c->json++; }while(0)
 #define ISDIGIT(ch)     ((ch) >= '0' && (ch) <= '9')
@@ -62,24 +63,28 @@ static int lept_parse_true(lept_context* c, lept_value* v) {
 static int lept_parse_number(lept_context* c, lept_value* v) {
     const char* p = c->json;
     if(*p == '-') p++;
+
     if(*p == '0') p++;
     else {
         if(!ISDIGIT1TO9(*p)) return LEPT_PARSE_INVALID_VALUE;
         for (p++; ISDIGIT(*p); p++);
     }
+
     if(*p == '.') {
         p++;
         if(!ISDIGIT(*p)) return LEPT_PARSE_INVALID_VALUE;
         for (p++; ISDIGIT(*p); p++);
     }
+
     if(*p == 'e' || *p == 'E') {
         p++;
         if(*p == '+' || *p == '-') p++;
         if(!ISDIGIT(*p)) return LEPT_PARSE_INVALID_VALUE;
         for (p++; ISDIGIT(*p); p++);
     }
+    // 由C函数库调用并设置错误值
     errno = 0;
-    // strtod将一个char*字符串转为一个double类型返回值
+    // strtod将一个char*字符串转为一个double类型返回值，若解析的数字过大，返回一个错误返回值
     v->n = strtod(c->json, NULL);
     if(errno == ERANGE && (v->n == HUGE_VAL || v->n == -HUGE_VAL))
         return LEPT_PARSE_NUMBER_TOO_BIG;
@@ -88,6 +93,23 @@ static int lept_parse_number(lept_context* c, lept_value* v) {
     return LEPT_PARSE_OK;
 }
 
+void lept_free(lept_value* v) {
+    assert(v != NULL);
+    if(v->type == LEPT_STRING)
+        free(v->u.s.s);
+    v->type = LEPT_NULL;
+}
+
+void lept_set_string(lept_value* v, const char* s, size_t len) {
+    // 0长度的字符串也合法
+    assert(v != NULL && (s != NULL || len == 0));
+    lept_free(v);
+    v->u.s.s = (char*)malloc(len + 1);
+    memcpy(v->u.s.s, s, len);
+    v->u.s.s[len] = '\0';
+    v->u.s.len = len;
+    v->type = LEPT_STRING;
+}
 
 static int lept_parse_value(lept_context* c, lept_value* v) {
     switch (*c->json) {
@@ -99,6 +121,13 @@ static int lept_parse_value(lept_context* c, lept_value* v) {
     }
 }
 
+/*
+ *  Function lept_parse
+ *
+ *  json解析入口函数，负责跳过json文本的前置空白和后置空白并进一步解析
+ *
+ *  para1: 传入一个json值指针  para2: 传入一个json文本字符串指针
+ */
 int lept_parse(lept_value* v, const char* json) {
     lept_context c;
     int ret;
